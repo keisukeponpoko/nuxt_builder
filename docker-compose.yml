@@ -1,0 +1,12 @@
+version: "2"
+services:
+  nuxt:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - node-modules-data:/app/node_modules
+
+volumes:
+  node-modules-data:

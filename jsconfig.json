@@ -1,0 +1,10 @@
+{
+  "include": ["./components/**/*"],
+  "compilerOptions": {
+    "module": "es2015",
+    "baseUrl": ".",
+    "paths": {
+      "~/components/*": ["components/*"]
+    }
+  }
+}

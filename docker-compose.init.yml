@@ -1,0 +1,11 @@
+version: "2"
+services:
+  nuxt:
+    build: .
+    volumes:
+      - .:/app
+      - node-modules-data:/app/node_modules
+    command: ["tail", "-f", "/dev/null"]
+
+volumes:
+  node-modules-data:
