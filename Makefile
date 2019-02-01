@@ -24,4 +24,4 @@ ps:
 
 .PHONY: rm_node_modules
 rm_node_modules:
-	docker volume rm rc_commerce_node-modules-data
+	docker volume rm project_name_node-modules-data
